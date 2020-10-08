@@ -45,11 +45,11 @@ public class TestAnalyticsCounter {
 		int frequenceinflamation = Collections.frequency(result, "inflamation");
 		
 		
-		System.out.println("Il y a "+ frequencerash + "références au symptôme 'rash'");
-		System.out.println("Il y a "+ frequencefever + "références au symptôme 'fever'");
-		System.out.println("Il y a "+ frequencedialetedpupils + "références au symptôme 'dialated pupils'");
-		System.out.println("Il y a "+ frequencecough + "références au symptôme 'cough'");
-		System.out.println("Il y a "+ frequenceinflamation + "références au symptôme 'inflamation'");
+		System.out.println("Il y a " +  frequencerash  + "références au symptôme 'rash'");
+		System.out.println("Il y a " +  frequencefever  + "références au symptôme 'fever'");
+		System.out.println("Il y a " + frequencedialetedpupils  + "références au symptôme 'dialated pupils'");
+		System.out.println("Il y a " +  frequencecough  + "références au symptôme 'cough'");
+		System.out.println("Il y a " +  frequenceinflamation  + "références au symptôme 'inflamation'");
 		
 	}
 
