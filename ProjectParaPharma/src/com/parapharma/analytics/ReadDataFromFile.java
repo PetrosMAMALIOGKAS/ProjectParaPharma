@@ -50,6 +50,17 @@ public class ReadDataFromFile implements ISymptomReader {
 			catch (IOException e) {
 				e.printStackTrace();
 			}
+			
 		}
 	}
+	
+	@Override
+	public String toString() {
+		String s = "";
+		for (String a : this.getSymptoms()) {
+			s = s.concat(a + "\n"); 
+		}
+		return String.format("%s%n%s", "les symptoms dans le fichier",  s);
+	}
+	
 }
