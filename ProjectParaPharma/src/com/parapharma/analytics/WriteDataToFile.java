@@ -32,9 +32,7 @@ public class WriteDataToFile {
 	public void writeDansLefichier() throws Exception {
 		FileWriter writer = new FileWriter ("result.out");
 		int listLength = this.getSymptomsPourEcrire().size();
-		System.out.println(listLength);
 		for (int i = 0; i <= listLength -1; i++) {
-System.out.println(this.getSymptomsPourEcrire().get(i));
 			writer.write(this.getSymptomsPourEcrire().get(i) + " " + 
 		                  this.getOccurancesPourEcrire().get(i) + "\n");
 		}
