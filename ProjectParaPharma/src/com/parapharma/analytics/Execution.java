@@ -20,11 +20,13 @@ public class Execution {
 		sym.add("stomach pain");
 		oc.add(1);
 		
+		String cheminDuFichier = "C:\\Users\\Utilisateur\\eclipse-workspace\\ProjectParaPharma\\ProjectParaPharma\\symptoms.txt";
+		ReadDataFromFile reader = new ReadDataFromFile(cheminDuFichier);
+		reader.readFile();
+		System.out.println(reader.toString());
 	    WriteDataToFile writer = new WriteDataToFile(sym, oc);
 	    writer.writeDansLefichier();
 		
-		ReadDataFromFile a = new ReadDataFromFile();
-		System.out.println("paoka");
 	}
 	
 }
